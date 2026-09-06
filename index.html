@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
   <meta name="theme-color" content="#fff8f6">
-  <title>小九赛季抓宠订单 · 离线版</title>
+  <title>小九的异色进度单</title>
   <style>
     :root{--ink:#4d3e43;--muted:#927a82;--line:#ecd9df;--pink:#df7596;--pink2:#ed91ad;--danger:#d95469;--bg:#fff8f6}
     *{box-sizing:border-box}html{background:var(--bg)}body{margin:0;min-height:100dvh;background:linear-gradient(180deg,#fff5f2,#fffaf8 44%,#fdf8f7);color:var(--ink);font-family:ui-rounded,"SF Pro Rounded","PingFang SC","Microsoft YaHei",system-ui,sans-serif}button,input{font:inherit}input,select,textarea{font-size:16px!important}.hidden{display:none!important}
@@ -22,7 +22,7 @@
 <body>
   <main class="app">
     <div class="orb a"></div><div class="orb b"></div>
-    <section class="top"><div><div class="eyebrow">✦ SEASON PETS</div><h1>赛季抓宠订单</h1><p><span id="seasonLabel">当前赛季</span> · 指定精灵需求与抓取进度</p></div><div class="save-pill">本机保存</div></section>
+    <section class="top"><div><div class="eyebrow">✦ SHINY PETS</div><h1>小九的异色进度单</h1><p><span id="seasonLabel">当前赛季</span> · 异色抓取进度清单</p></div><div class="save-pill">本机保存</div></section>
     <section class="stats"><div class="stat"><span>总需求</span><strong id="sumTarget">0</strong></div><div class="stat"><span>已经抓到</span><strong id="sumCaught">0</strong></div><div class="stat hot"><span>还差</span><strong id="sumLeft">0</strong></div></section>
     <details class="panel"><summary><span>🐾 本赛季精灵 <b id="petCount">0</b></span><span class="arrow">⌄</span></summary><div class="panel-body"><form id="petForm" class="add-pet"><input id="petName" class="input" aria-label="精灵名称" maxlength="24"><button class="btn primary" type="submit">＋ 添加</button></form><div id="petArea"></div></div></details>
     <div class="actions"><button id="newOrder" class="btn primary">＋ 新建老板卡</button><button id="newSeason" class="btn">✦ 开始新赛季</button></div>
